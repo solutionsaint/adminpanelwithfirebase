@@ -1,6 +1,6 @@
 {
   "projects": {
-    "production": "ultrasonic-clinic"
+    "default": "contactus-app-f8313"
   },
   "targets": {},
   "etags": {},

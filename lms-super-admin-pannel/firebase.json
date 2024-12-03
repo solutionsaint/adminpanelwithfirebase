@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "lms-admin-panel",
+     "site": "lms-admin-panel",
     "public": "./dist",
     "ignore": [
       "firebase.json",
