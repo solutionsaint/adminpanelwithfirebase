@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+import 'package:provider/provider.dart';
+
+import 'package:menu_app/routes/routes.dart';
+import 'package:menu_app/themes/themes.dart';
+import 'package:menu_app/providers/auth_provider.dart';
+
+class MenuApp extends StatelessWidget {
+  const MenuApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ChangeNotifierProvider<AuthProvider>(
+      create: (_) {
+        return AuthProvider();
+      },
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: Themes.buildLightTheme(context),
+        home: Routes.initialScreen,
+      ),
+    );
+  }
+}

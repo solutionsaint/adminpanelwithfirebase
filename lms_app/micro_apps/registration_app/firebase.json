@@ -1,0 +1,15 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ultrasonic-clinic",
+          "configurations": {
+            "android": "1:400364342771:android:93f14ab5e5712b09135686",
+            "ios": "1:400364342771:ios:ef7d9501b6d05917135686"
+          }
+        }
+      }
+    }
+  }
+}
