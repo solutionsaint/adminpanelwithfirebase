@@ -1,8 +1,5 @@
 {
   "projects": {
     "default": "contactus-app-f8313"
-  },
-  "targets": {},
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+  }
 }
