@@ -50,22 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAd1AIJkDOZYK_XaOKfTCLhMMaaOoeOgMs',
-    appId: '1:400364342771:android:01eb47a7aba43d82135686',
-    messagingSenderId: '400364342771',
-    projectId: 'ultrasonic-clinic',
-    storageBucket: 'ultrasonic-clinic.appspot.com',
+    apiKey: 'AIzaSyAmvzpQweEOv8CTb330V3axKsh6uqkiT5s',
+    appId: '1:903563139844:android:4c57f15ee8a9d4ae118e51',
+    messagingSenderId: '903563139844',
+    projectId: 'contactus-app-f8313',
+    storageBucket: 'contactus-app-f8313.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDg7abaiHghYTHyV9ElCcdkRj-0DKdA68Y',
-    appId: '1:400364342771:ios:e84af7a557d9b4bf135686',
-    messagingSenderId: '400364342771',
-    projectId: 'ultrasonic-clinic',
-    storageBucket: 'ultrasonic-clinic.appspot.com',
-    androidClientId: '400364342771-3m908fk37243b36jf3n7angchjqr66uv.apps.googleusercontent.com',
-    iosClientId: '400364342771-6rg55gric61667evj56eurkmdl5glst9.apps.googleusercontent.com',
+    apiKey: 'AIzaSyD0ozsG0OzyThIKSrKSknSaFyemMzm1ZXg',
+    appId: '1:903563139844:ios:86d5696ed3f227e5118e51',
+    messagingSenderId: '903563139844',
+    projectId: 'contactus-app-f8313',
+    storageBucket: 'contactus-app-f8313.firebasestorage.app',
     iosBundleId: 'com.lms.menu.app',
   );
-
 }
